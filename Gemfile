@@ -41,3 +41,5 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'byebug',      '3.4.0' , group: :development
 
 gem 'bootstrap-sass',       '3.2.0.0'
+
+gem 'rails_12factor', group: :production
