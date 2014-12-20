@@ -31,7 +31,7 @@ gem 'spring',        group: :development
 gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -42,4 +42,5 @@ gem 'byebug',      '3.4.0' , group: :development
 
 gem 'bootstrap-sass',       '3.2.0.0'
 
+#this thing rails_12factor is important for css loading.
 gem 'rails_12factor', group: :production
